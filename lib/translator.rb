@@ -23,13 +23,13 @@ def get_japanese_emoticon(file, emoticons)
   load_library = load_library(file)
   result = load_library["get_emoticon"][emoticon]
   binding.pry
-  load_library.each do |english, japanese|
-    if english == emoticons
-      return japanese
-    else
-     "Sorry, that emoticon was not found"
-    end
-  end
+#  load_library.each do |english, japanese|
+#    if english == emoticons
+#      return japanese
+#    else
+#     "Sorry, that emoticon was not found"
+#    end
+#  end
 end
 
 def get_english_meaning
