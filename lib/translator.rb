@@ -31,4 +31,5 @@ end
 
 def get_english_meaning(file, emoticon)
   # code goes here
+  library = load_library(file)
 end
