@@ -22,6 +22,8 @@ def get_japanese_emoticon(file, emoticons)
   # code goes here
   library = load_library(file)
   result = library["get_emoticon"][emoticons]
+  if result
+    result
   binding.pry
 #  load_library.each do |english, japanese|
 #    if english == emoticons
