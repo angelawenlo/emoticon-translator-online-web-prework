@@ -24,14 +24,9 @@ def get_japanese_emoticon(file, emoticons)
   result = library["get_emoticon"][emoticons]
   if result
     result
-  binding.pry
-#  load_library.each do |english, japanese|
-#    if english == emoticons
-#      return japanese
-#    else
-#     "Sorry, that emoticon was not found"
-#    end
-#  end
+  else
+     "Sorry, that emoticon was not found"
+ end
 end
 
 def get_english_meaning
