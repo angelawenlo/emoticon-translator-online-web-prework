@@ -36,5 +36,5 @@ def get_english_meaning(file, emoticon)
   if result
     result
   binding.pry
-
+  end
 end
